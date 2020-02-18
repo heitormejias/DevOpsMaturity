@@ -1,0 +1,43 @@
+application {
+  config {
+    databaseType sql
+    devDatabaseType h2Disk
+    enableHibernateCache true
+    enableSwaggerCodegen false
+    enableTranslation true
+    jhiPrefix jhi
+    languages [en, pt-br]
+    messageBroker false
+    nativeLanguage pt-br
+    packageName br.com.mejias.devopsmaturity
+    prodDatabaseType postgresql
+    searchEngine false
+    serviceDiscoveryType false
+    skipClient false
+    skipServer false
+    testFrameworks []
+    websocket false
+    applicationType monolith
+    gitCompany 
+    baseName DevOpsMaturity
+    serverPort 8033
+    authenticationType jwt
+    uaaBaseName ../uaa
+    cacheProvider ehcache
+    buildTool maven
+    useSass true
+    clientPackageManager npm
+    clientFramework angularX
+    jhipsterVersion "6.7.1"
+    jwtSecretKey "Njk0YTVmMjg3OWJhMzEzZGY1M2Y1ODdmNzRkZmIxYzMzYzhmOTBmZjVkNGQ1YTU5NTc4ODE2NzUxOTFjYzYzMjAwNmFlNjkxZWJiNWEyOGZlNTk2MDQ2ZjYxMzMyZjhjZjM0M2ZiZjY0YWQzODNkZjJhMmZhNjEzNTkxNmIwYzA="
+    embeddableLaunchScript false
+    clientTheme none
+    creationTimestamp 1582031987728
+    dtoSuffix DTO
+    otherModules []
+    herokuAppName dev-ops-maturity
+    herokuDeployType jar
+    skipUserManagement false
+  }
+}
+

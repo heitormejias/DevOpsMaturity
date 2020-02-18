@@ -35,7 +35,9 @@
     "entitySuffix": "",
     "dtoSuffix": "DTO",
     "otherModules": [],
-    "blueprints": []
+    "blueprints": [],
+    "herokuAppName": "dev-ops-maturity",
+    "herokuDeployType": "jar"
   },
   "git-provider": "GitHub",
   "git-company": "heitormejias",

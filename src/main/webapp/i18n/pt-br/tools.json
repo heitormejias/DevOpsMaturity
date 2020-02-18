@@ -1,0 +1,22 @@
+{
+  "devOpsMaturityApp": {
+    "tools": {
+      "home": {
+        "title": "Tools",
+        "createLabel": "Criar novo Tools",
+        "createOrEditLabel": "Criar ou editar Tools",
+        "notFound": "Nenhum Tools encontrado"
+      },
+      "created": "Um novo Tools foi criado com o identificador {{ param }}",
+      "updated": "Um Tools foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Tools foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Tools {{ id }}?"
+      },
+      "detail": {
+        "title": "Tools"
+      },
+      "name": "Name"
+    }
+  }
+}

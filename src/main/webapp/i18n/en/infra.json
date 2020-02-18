@@ -1,0 +1,22 @@
+{
+  "devOpsMaturityApp": {
+    "infra": {
+      "home": {
+        "title": "Infras",
+        "createLabel": "Create a new Infra",
+        "createOrEditLabel": "Create or edit a Infra",
+        "notFound": "No Infras found"
+      },
+      "created": "A new Infra is created with identifier {{ param }}",
+      "updated": "A Infra is updated with identifier {{ param }}",
+      "deleted": "A Infra is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Infra {{ id }}?"
+      },
+      "detail": {
+        "title": "Infra"
+      },
+      "name": "Name"
+    }
+  }
+}
