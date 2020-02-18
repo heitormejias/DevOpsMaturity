@@ -44,6 +44,7 @@ public class CacheConfiguration {
             createCache(cm, br.com.mejias.devopsmaturity.domain.User.class.getName() + ".authorities");
             createCache(cm, br.com.mejias.devopsmaturity.domain.Tools.class.getName());
             createCache(cm, br.com.mejias.devopsmaturity.domain.Infra.class.getName());
+            createCache(cm, br.com.mejias.devopsmaturity.domain.Topic.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

@@ -39,5 +39,17 @@ application {
     herokuDeployType jar
     skipUserManagement false
   }
+
+  entities Infra, Tools, Topic
 }
 
+entity Infra {
+  name String
+}
+entity Tools {
+  name String
+}
+entity Topic {
+  name String
+}
+paginate Infra, Tools, Topic with infinite-scroll

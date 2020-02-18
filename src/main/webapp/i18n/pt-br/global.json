@@ -9,6 +9,7 @@
         "main": "Entidades",
         "tools": "Tools",
         "infra": "Infra",
+        "topic": "Topic",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
